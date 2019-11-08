@@ -23,7 +23,7 @@ public class HelloTest {
 		driver = new FirefoxDriver();*/
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.google.com/");
+		driver.get("http://localhost:8087/HelloAppRun/");
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
